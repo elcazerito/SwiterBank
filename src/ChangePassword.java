@@ -23,13 +23,13 @@ public class ChangePassword {
         gbc.gridx = 0;
         gbc.anchor = GridBagConstraints.CENTER;
 
-        JLabel h1 = new JLabel("Déclarer un changement de nom");
+        JLabel h1 = new JLabel("Déclarer un changement de mot de passe");
         h1.setHorizontalAlignment(SwingConstants.CENTER);
         h1.setFont(new Font("Arial", Font.BOLD, 20));
         gbc.gridy = 0;
         panelPrincipal.add(h1, gbc);
 
-        JLabel idLabel = new JLabel("Entrez votre nouveau nom :");
+        JLabel idLabel = new JLabel("Entrez votre nouveau mot de passe :");
         gbc.gridy = 1;
         panelPrincipal.add(idLabel, gbc);
 
